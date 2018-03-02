@@ -1,0 +1,41 @@
+<html>
+<style>
+body {
+	paddng: 0;
+	margin: 0;
+	background-color: rgb(61,72,80);
+	color: white;
+	position: relative;
+}
+html, body {
+	height: 100%;
+}
+button.nextButton {
+	vertical-align: middle;
+    border: none;
+    background-color: rgb(245, 110, 18);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 5px;
+}
+div.verticalCenter {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+</style>
+<body>
+<center>
+<div class="verticalCenter">
+In order to visit the blog, you must be logged in.<br>
+Visit the SQL Injection demo and log in (either through your account or another's)<br><br>
+<button class="nextButton" onclick="document.location = 'home_page.jsp'"/>Back to Home</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+<style>
+body {
+	paddng: 0;
+	margin: 0;
+	background-color: rgb(61,72,80);
+	color: white;
+}
+html, body {
+	height: 100%;
+}
+button.backButton {
+	position: absolute;
+	float: right;
+	vertical-align: middle;
+    border: none;
+    background-color: rgb(245, 110, 18);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 5px;
+	right: 1%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+div.wrapper {
+	position: relative;
+	background-image: url("bg.jpg");
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	vertical-align: middle;
+	top: 0%;
+	height: 10%;
+	z-index: 3;
+}
+</style>
+<head>
+    <title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div style="padding:10px">
+		<table width="100%">
+			<td style="vertical-align: bottom">
+				<h1 style="padding-top: 10px">
+					SQL Injection
+				</h1>
+			</td>
+			<td>
+				<button class="backButton" onclick="document.location = 'home_page.jsp'"/>Back to Home</button>
+			</td>
+			<td/>
+		</table>
+	</div>
+</div>
+<h2>Please register</h2>
+<form action="register_action.jsp">
+<label>Your Name:</label><input name="fullname" required /><br>
+<label>Login ID:</label><input name="user" required /><br>
+<label>Password:</label> <input name="pass" type="password" required /><br>
+
+<input type="submit" value="Register"/><br>
+Already have an account? <a style="color: rgb(245, 110, 18);" href="login_form.jsp">Login here!</a>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<style>
+body {
+	background-image: url("bg.jpg");
+	height: 100%;
+	paddng: 0;
+	margin: 0;
+	background-color: rgb(61,72,80);
+	color: white;
+}
+button.enter {
+	position: relative;
+    border: none;
+    background-color: rgb(245, 110, 18);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 5px;
+	bottom: 10%;
+}
+button:hover {
+	opacity: 0.8;
+}
+div.bg {
+	position: relative;
+	padding: 15px; 
+	background-color: rgba(200, 200, 200, .5);
+	border-radius: 25px;
+	width: 500px;
+	height: 20%;
+	margin: 0 auto;
+	transform: translateY(75%);
+	display: table;
+}
+</style>
+	<head>
+		<title>Security Demo Website</title>
+	</head>
+	<body>
+		<center>
+			<div class="bg">
+				<h4>
+				Hello, my name is Patrick Leung. Welcome to my security website.<br/>
+				The aim of this website is to demonstrate various security topics described in the OWASP Top 10 Project<br><br>
+				</h4>
+				<button class="enter" onclick="document.location = 'home_page.jsp'"/>Enter</button>
+			</div>
+		</center>
+	</body>
+</html>
