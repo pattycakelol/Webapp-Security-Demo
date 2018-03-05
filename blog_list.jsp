@@ -52,7 +52,7 @@ button.backButton {
 
 <hr>
 <div style="padding-left: 10px;">
-<b style="color: rgb(245, 110, 18)">What is an XSS attack? &lt;sdsfsf&gt; </b><br>
+<b style="color: rgb(245, 110, 18)">What is an XSS attack?</b><br>
 <br>
 "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites.<br>
 XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.<br>
